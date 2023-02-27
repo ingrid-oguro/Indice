@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import pip
 pip.main(["install", "openpyxl"])
 
-base_w = pd.read_excel('/content/drive/MyDrive/Relatorios_20231/indice01.xlsx')
+base_w = pd.read_excel('indice01.xlsx')
 #st.write(base_w.HABILITACAO.unique())
 
 curso3 = sorted(base_w.HABILITACAO.unique())
