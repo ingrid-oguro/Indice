@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
+import pip
+pip.main(["install", "openpyxl"])
 
 base_w = pd.read_excel('/content/drive/MyDrive/Relatorios_20231/indice01.xlsx')
 #st.write(base_w.HABILITACAO.unique())
