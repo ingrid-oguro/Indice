@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 import altair as alt
 
-import pip
-pip.main(["install", "openpyxl"])
+#import pip
+#pip.main(["install", "openpyxl"])
 PAGE_CONFIG = {"page_title": "Indicadores", "page_icon": ":globe_with_meridians:", "layout": "wide"}
 st.set_page_config(**PAGE_CONFIG)
 #path = os.path.dirname(__periodo_graduação__)
