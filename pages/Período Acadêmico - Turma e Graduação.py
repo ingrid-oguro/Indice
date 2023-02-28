@@ -7,8 +7,9 @@ import altair as alt
 #pip.main(["install", "openpyxl"])
 PAGE_CONFIG = {"page_title": "Indicadores", "page_icon": ":globe_with_meridians:", "layout": "wide"}
 st.set_page_config(**PAGE_CONFIG)
-
-base = pd.read_excel('pages/periodo_graduação.xlsx')
+path = os.path.dirname(__periodo_graduação__)
+my_file = path+'/photo.png'
+base = pd.read_excel(path)
 base_turma = pd.read_excel('pages/periodo_turma.xlsx')
 periodo = pd.read_excel('pages/periodo.xlsx')
 #
