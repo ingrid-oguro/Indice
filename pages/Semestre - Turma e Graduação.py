@@ -8,9 +8,9 @@ import altair as alt
 PAGE_CONFIG = {"page_title": "Indicadores", "page_icon": ":globe_with_meridians:", "layout": "wide"}
 st.set_page_config(**PAGE_CONFIG)
 
-base = pd.read_excel('codperlet_graduação.xlsx')
-base_turma = pd.read_excel('codperlet_turma.xlsx')
-codperlet = pd.read_excel('codperlet.xlsx')
+base = pd.read_excel('pages/codperlet_graduação.xlsx')
+base_turma = pd.read_excel('pages/codperlet_turma.xlsx')
+codperlet = pd.read_excel('pages/codperlet.xlsx')
 #
 
 cursos_grad = ['Administração', 'Ciências Econômicas','Direito','Engenharia de Produção','Engenharia de Computação']
