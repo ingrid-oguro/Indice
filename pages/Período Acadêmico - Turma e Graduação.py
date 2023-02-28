@@ -9,9 +9,9 @@ PAGE_CONFIG = {"page_title": "Indicadores", "page_icon": ":globe_with_meridians:
 st.set_page_config(**PAGE_CONFIG)
 #path = os.path.dirname(__periodo_graduação__)
 #my_file = path+'/photo.png'
-base = pd.read_excel('pages/periodo_graduação.xlsx')
-base_turma = pd.read_excel('pages/periodo_turma.xlsx')
-periodo = pd.read_excel('pages/periodo.xlsx')
+base = pd.read_excel('base/periodo_graduação.xlsx')
+base_turma = pd.read_excel('base/periodo_turma.xlsx')
+periodo = pd.read_excel('base/periodo.xlsx')
 #
 
 cursos_grad = ['Administração', 'Ciências Econômicas','Direito','Engenharia de Produção','Engenharia de Computação']
