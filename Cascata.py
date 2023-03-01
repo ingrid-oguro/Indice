@@ -57,8 +57,8 @@ fig3.update_xaxes(type='category')
 st.plotly_chart(fig3, use_container_width=True)
 
 
-with st.expander("Ver base"):
-    st.dataframe(base_w.style.format({"CODPERLET": "{:.0f}"}))
+#with st.expander("Ver base"):
+#    st.dataframe(base_w.style.format({"CODPERLET": "{:.0f}"}))
 
 
 
